@@ -1,3 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-size: 13px;
+}
+
+
 body{
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
+}
+
+.container{
+    width: 360px;
+    margin: 10px auto 0px;
+    padding: 0 24px;
+    align-items: center;
+}
+
+#cabecalho{
+    text-align: center;
+    padding: 24px;
+    color: #fff;
+    background-color: blue;
+}
+
+#cabecalho img{
+    width: 112px;
+}
+
+#perguntas{
+    text-align: center;
+    padding: 24px;
+    color: #004DA7;
+}
+
+
+#perguntas img{
+    width: 37px;
+}
+
+#perguntas button{
+    border: 1px;
+    background-color: #D4DDF3;
+    width: 43px;
+}
+
+
+#perguntas button:hover{
+    background-color: aqua;
 }
